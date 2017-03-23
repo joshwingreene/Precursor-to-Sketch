@@ -1,0 +1,17 @@
+{
+    "name" : "Precursor-to-Sketch Paste",
+    "identifier" : "com.josh_w_g.precursor-to-sketchpaste",
+    "version" : "1.0",
+    "description" : "Paste what you copied in Precursor",
+    "authorEmail" : "joshwin.greene@gmail.com",
+    "author" : "Joshwin Greene",
+    "commands" : [
+    {
+      "script" : "script.js",
+      "handler" : "onRun",
+      "shortcut" : "ctrl v",
+      "name" : "Precursor-to-Sketch Paste",
+      "identifier" : "precursor-to-sketchpaste"
+    }
+  ]
+}

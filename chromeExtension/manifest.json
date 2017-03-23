@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Precursor-to-Sketch Copy",
+  "description": "This extension transforms the Precursor clipboard data so that the result is ready to be copied to Sketch.",
+  "version": "1.0",
+  "author": "Joshwin Greene - @Josh_w_G",
+  "content_scripts": [
+	{
+	"matches": ["<all_urls>"],
+	"css": [],
+	"js": ["script.js"]
+	}],
+  "permissions": [
+    "clipboardWrite",
+	"clipboardRead"
+  ]
+}
